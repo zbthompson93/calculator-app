@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget
+  id="com.calculator.app"
+  version="1.0.0" xmlns="http://www.w3.org/ns/widgets"
+  xmlns:gap="http://phonegap.com/ns/1.0" >
+    <name>Calculator</name>
+    <description>
+        A simple calculator coded with JavaScript.
+    </description>
+    <author email="zbthompson93@gmail.com" href="https://zbthompson.com">
+        Zachary Thompson
+    </author>
+    <platform name="android" />
+    <platform name="ios" />
+    <platform name="winphone" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="disallowOverscroll" value="true" />
+
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="android-installLocation" value="auto" />
+
+    <platform name="android">
+      <icon src="icon/calculator-icon.ico" qualifier="ldpi" />
+      <icon src="icon/calculator-icon.ico" qualifier="mdpi" />
+      <icon src="icon/calculator-icon.ico" qualifier="hdpi" />
+      <icon src="icon/calculator-icon.ico" qualifier="xhdpi" />
+      <icon src="icon/calculator-icon.ico" qualifier="xxhdpi" />
+      <icon src="icon/calculator-icon.ico" qualifier="xxxhdpi" />
+    </platform>
+
+    <!--content src="index.html" />
+    <access origin="*" /-->
+</widget>
