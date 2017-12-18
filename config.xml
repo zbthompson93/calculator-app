@@ -23,12 +23,12 @@
     <preference name="android-installLocation" value="auto" />
 
     <platform name="android">
-      <icon src="icon/calculator-icon.png" qualifier="ldpi" />
-      <icon src="icon/calculator-icon.png" qualifier="mdpi" />
-      <icon src="icon/calculator-icon.png" qualifier="hdpi" />
-      <icon src="icon/calculator-icon.png" qualifier="xhdpi" />
-      <icon src="icon/calculator-icon.png" qualifier="xxhdpi" />
-      <icon src="icon/calculator-icon.png" qualifier="xxxhdpi" />
+      <icon src="icon/calculator-icon.png" density="ldpi" />
+      <icon src="icon/calculator-icon.png" density="mdpi" />
+      <icon src="icon/calculator-icon.png" density="hdpi" />
+      <icon src="icon/calculator-icon.png" density="xhdpi" />
+      <!--icon src="icon/calculator-icon.png" qualifier="xxhdpi" />
+      <icon src="icon/calculator-icon.png" qualifier="xxxhdpi" /-->
     </platform>
 
     <!--content src="index.html" />
